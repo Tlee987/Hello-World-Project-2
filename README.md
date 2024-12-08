@@ -7,3 +7,20 @@ dime_value = 10
 nickel_value = 5
 penny_value = 1
 
+# Calculate the value/number of each coin
+
+dollars = amount // dollar_value
+amount% = dollar_value
+quarters = amount // quarter_value
+amount% = quarter_value
+dimes = amount // dime_value
+amount% = dime_value
+nickels = amount // nickel_value
+amount% = nickel_value
+pennies = amount // penny_value
+
+
+
+
+
+
