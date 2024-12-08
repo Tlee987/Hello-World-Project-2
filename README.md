@@ -19,7 +19,9 @@ nickels = amount // nickel_value
 amount% = nickel_value
 pennies = amount // penny_value
 
-# The dictionary of the result is the return of the amounts
+# The dictionary of the result is the return of the amounts with the breakdown
+# This can be utilized and run using Python run file
+# The calculate change function takes the amount paid and the cost as inputs.
 return{
   'dollars': dollars,
   'quarters': quarters,
