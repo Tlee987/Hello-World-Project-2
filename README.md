@@ -19,6 +19,15 @@ nickels = amount // nickel_value
 amount% = nickel_value
 pennies = amount // penny_value
 
+# The dictionary of the result is the return of the amounts
+return{
+  'dollars': dollars,
+  'quarters': quarters,
+  'dimes': dimes,
+  'pennies': pennies
+  }
+  
+
 
 
 
