@@ -7,7 +7,7 @@ def calculate_change(amount):
   nickel_value = 5
   penny_value = 1
 
-# Calculate the value/number of each coin
+# Calculate the value/number of each coin with an amount
 
 dollars = amount // dollar_value
 amount% = dollar_value
